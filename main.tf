@@ -8,7 +8,7 @@ resource "random_id" "random" {
 }
 
 output "payload" {
-  value = "none"
+  value = "$(payload1)"
 }
 
 output "random" {
