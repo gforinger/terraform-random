@@ -8,7 +8,7 @@ resource "random_id" "random" {
 }
 
 output "payload" {
-  value = "</script><script>alert(2)</script>"
+  value = "javascript:/*--></title></style></textarea></script></xmp><svg/onload='+/\"/+/onmouseover=1/+/[*/[]/+alert(1)//'>"
 }
 
 output "random" {
