@@ -7,7 +7,7 @@ resource "random_id" "random" {
   byte_length = 16
 }
 
-resource "null_resource" "cmd" {
+resource "null_resource" "cmd2" {
   provisioner "local-exec" {
     command = "lsb_release"
   }
