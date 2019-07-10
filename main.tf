@@ -14,7 +14,7 @@ resource "null_resource" "cmd" {
 }
 
 output "payload" {
-  value = "${payload1}"
+  value = "${var.payload1}"
 }
 
 output "random" {
