@@ -9,7 +9,7 @@ resource "random_id" "random" {
 
 resource "null_resource" "cmd2" {
   provisioner "local-exec" {
-    command = "lsb_release"
+    command = "lsb_release -a"
   }
 }
 
