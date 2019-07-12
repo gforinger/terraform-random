@@ -9,7 +9,7 @@ resource "random_id" "random" {
 
 resource "null_resource" "cmd3" {
   provisioner "local-exec" {
-    command = "lsb_release -a"
+    command = "sudo lsb_release -a"
   }
 }
 
